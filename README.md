@@ -74,9 +74,11 @@ Chaque table est normalisée, avec clés primaires et étrangères pour assurer 
 2. Lancez `data_integration.py` pour charger JSON et XML
 3. Ouvrez `dashboard.pbix` ou `.twb` pour visualiser les KPI
 
+## Aperçu du Dashboard
 
-![Dashboard](/Users/cherifamanatoulhasy/Desktop/dash.png)
->>>>>>> 87f108e794a9c63c706bea5d52d880830607dac0
+Voici un aperçu du tableau de bord créé dans ce projet :
+
+![Dashboard](images/dash.png)
 
 ## 🙋‍♂️ Auteur
 
