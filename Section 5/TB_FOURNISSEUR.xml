@@ -1,0 +1,38 @@
+<type_fournisseur>
+	<type_fournisseur_code>TF001</type_fournisseur_code>
+    <type_fournisseur_libelle>Grossiste</type_fournisseur_libelle>
+	<fournisseur>
+		<fournisseur_code>F001</fournisseur_code>
+        <fournisseur_rsociale>Orange</fournisseur_rsociale>
+	</fournisseur>
+	<fournisseur>
+		<fournisseur_code>F002</fournisseur_code>
+        <fournisseur_rsociale>Fnac</fournisseur_rsociale>
+	</fournisseur>
+</type_fournisseur>
+
+<type_fournisseur>
+	<type_fournisseur_code>TF002</type_fournisseur_code>
+    <type_fournisseur_libelle>Semi-Grossiste</type_fournisseur_libelle>
+	<fournisseur>
+		<fournisseur_code>F003</fournisseur_code>
+        <fournisseur_rsociale>Kiabi</fournisseur_rsociale>
+	</fournisseur>
+	<fournisseur>
+		<fournisseur_code>F004</fournisseur_code>
+        <fournisseur_rsociale>Jules</fournisseur_rsociale>
+	</fournisseur>
+</type_fournisseur>
+
+<type_fournisseur>
+	<type_fournisseur_code>TF003</type_fournisseur_code>
+    <type_fournisseur_libelle>Léonard</type_fournisseur_libelle>
+	<fournisseur>
+		<fournisseur_code>F005</fournisseur_code>
+        <fournisseur_rsociale>Carrefour</fournisseur_rsociale>
+	</fournisseur>
+	<fournisseur>
+		<fournisseur_code>F006</fournisseur_code>
+        <fournisseur_rsociale>Stockomanie</fournisseur_rsociale>
+	</fournisseur>
+</type_fournisseur>

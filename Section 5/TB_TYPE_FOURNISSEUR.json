@@ -1,0 +1,14 @@
+[
+{
+"CD_TYPE_FRS":"TF001",
+"LB_TYPE_FRS":"Grossiste",
+},
+{
+"CD_TYPE_FRS":"TF002",
+"LB_TYPE_FRS":"Semi-Grossiste",
+},
+{
+"CD_TYPE_FRS":"TF003",
+"LB_TYPE_FRS":"Détaillant",
+}   
+]
