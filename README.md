@@ -21,24 +21,36 @@ Ce projet illustre la mise en place d'une base de données eCommerce complète d
 | **JSON / XML**         | Format de données pour les fournisseurs|
 | **Power BI / Tableau** | Visualisation des KPI                  |
 | **Git & GitHub**       | Versioning et documentation            |
+------------------------------------------------------------------
+## Organisation
 
-## Organisation du projet
+``` 
 snowflake-ecommerce-db/
 │
-├── 1_database_creation/         → Script SQL pour créer la base
-├── 2_schema_creation/           → Création du schéma I_OPE
-├── 3_tables_creation/           → Script de création des 7 tables
+├── 1_database_creation/         
+│   └── create_database.sql      # Script SQL pour créer la base
+│
+├── 2_schema_creation/           
+│   └── create_schema.sql        # Création du schéma I_OPE
+│
+├── 3_tables_creation/           
+│   └── create_tables.sql        # Script de création des 7 tables
+│
 ├── 4_insert_data/
-│   ├── insert_data.sql          → Insertion des données manuelles
-│   ├── fournisseurs.json        → Données fournisseur (JSON)
-│   ├── fournisseurs.xml         → Données fournisseur (XML)
+│   ├── insert_data.sql          # Insertion des données manuelles
+│   ├── fournisseurs.json        # Données fournisseur (JSON)
+│   └── fournisseurs.xml         # Données fournisseur (XML)
+│
 ├── 5_dashboard/
-│   └── dashboard.pbix           → Dashboard Power BI (ou .twb Tableau)
+│   └── dashboard.pbix           # Dashboard Power BI (ou .twb Tableau)
+│
 ├── scripts/
-
-├── README.md                    → Ce fichier
-└── requirements.txt             → Librairies Python nécessaires
-----------------------------------------------------------------------------
+│   └── ...                      # Autres scripts utiles
+│
+├── README.md                    # Ce fichier - documentation projet
+└── requirements.txt             # Librairies Python nécessaires
+``` 
+------------------------------------------------------------------
 ## Modèle relationnel
 
 Le projet repose sur 7 tables interconnectées :
